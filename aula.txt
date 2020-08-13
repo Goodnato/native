@@ -1,0 +1,22 @@
+#Criar um novo expo
+expo init mobile (seleciona blank(typescript))
+#Iniciar o expo
+export start
+#Para rodar os app
+No celular, baixa um app chamado Expo para emular no celular
+#Por padrao não é possivel importar imagens. Por isso precisamos configurar
+Na pasta src, cria @types e depois index.d.ts. Para avisar o native que vamos importar imagem
+#Baixar as fontes do google
+expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poppins
+#Para criar uma espécie de rota
+yarn add @react-navigation/native
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+#Stack é a animaçao em pilhas. Quando voce clica em entrar fica um botao de voltar disponivel
+yarn add @react-navigation/stack
+#Tabs é a animaçao por menu. Esses menus levam pra outras telas
+yarn add @react-navigation/bottom-tabs
+#Depois disso só criar uma pasta chamada routes e para cada animacao que escolher precisa de um arquivo pra ele.
+#Instala o axios para conectar a api
+yarn add axios
+#Para usar o storage do celular
+expo install @react-native-community/async-storage
